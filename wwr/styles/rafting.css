@@ -121,6 +121,24 @@ article {
 }
 
 nav {
+    nav {
+        display: flex;
+        justify-content: flex-end;
+        /* push links to the right */
+        gap: 1rem;
+        /* spacing between links */
+    }
+
+    nav a {
+        text-decoration: none;
+        color: #004466;
+        font-weight: bold;
+    }
+
+    nav a:hover {
+        color: #0099cc;
+    }
+
     display: flex;
     justify-content: space-around;
     background-color: var(--accent1-color);
