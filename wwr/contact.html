@@ -24,7 +24,61 @@
         </nav>
     </header>
     <main>
+        <!-- Company Info -->
+        <section class="company-info">
+            <h2>Contact Information</h2>
+            <p>Address: 123 River Road, Makindye, Kampala, Uganda</p>
+            <p>Phone: +256-0774312752</p>
+            <p>Email: athienopeace355@gmail.com</p>
+            <iframe src="YOUR_GOOGLE_MAP_EMBED_URL" width="600" height="450" allowfullscreen=""
+              loading="lazy"></iframe>
+        </section>
 
+        <!-- Employees -->
+        <section class="employees">
+            <h2>Meet Our Team</h2>
+            <figure>
+                <img src="images/employee1.webp" alt="John Doe - Guide">
+                <figcaption>John Doe – Lead Guide</figcaption>
+            </figure>
+            <figure>
+                <img src="images/employee2.webp" alt="Jane Smith - Manager">
+                <figcaption>Jane Smith – Operations Manager</figcaption>
+            </figure>
+            <figure>
+                <img src="images/employee3.webp" alt="Mark Lee - Safety Officer">
+                <figcaption>Mark Lee – Safety Officer</figcaption>
+            </figure>
+        </section>
+
+        <!-- Contact Form -->
+        <section class="contact-form">
+            <h2>Send Us a Message</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <p>Purpose of Message:</p>
+                <label><input type="radio" name="purpose" value="general"> General
+                    Inquiry</label>
+                <label><input type="radio" name="purpose" value="reservation"> Reservation
+                    Question</label>
+                <label><input type="radio" name="purpose" value="suggestion"> Website
+                    Suggestion</label>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5"></textarea>
+
+                <label><input type="checkbox" name="newsletter"> Please subscribe me to the
+                    monthly
+                    newsletter</label>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
 
     </main>
 
