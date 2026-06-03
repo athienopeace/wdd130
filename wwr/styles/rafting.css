@@ -37,10 +37,6 @@ article {
     padding: 8px;
 }
 
-.socialmedia a {
-    text-decoration: none;
-}
-
 .hero {
     position: relative;
 }
@@ -62,54 +58,9 @@ article {
     color: #fff;
 }
 
-.hero article img {
-    float: right;
-    width: 125px;
-    margin: 8px;
-}
-
-header,
-main,
-footer {
-    width: 840px;
-    margin: 0 auto;
-}
-
-h1,
-h2 {
-    font-family: var(--heading-font);
-    color: var(--primary-color);
-}
-
-nav,
-p,
-section,
-article {
-    margin: 16px;
-    padding: 8px;
-}
-
-.socialmedia a {
-    text-decoration: none;
-}
-
-.hero {
-    position: relative;
-}
-
-.hero img {
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
-.hero h1 {
+.hero article {
     position: absolute;
-    top: 20px;
-    width: 100%;
-    padding: 16px;
-    text-align: center;
-    opacity: 0.7;
+    bottom: 2rem;
     background-color: var(--accent1-color);
     color: #fff;
 }
@@ -118,42 +69,9 @@ article {
     float: right;
     width: 125px;
     margin: 8px;
-}
-
-nav {
-    nav {
-        display: flex;
-        justify-content: flex-end;
-        /* push links to the right */
-        gap: 1rem;
-        /* spacing between links */
-    }
-
-    nav a {
-        text-decoration: none;
-        color: #004466;
-        font-weight: bold;
-    }
-
-    nav a:hover {
-        color: #0099cc;
-    }
-
-    display: flex;
-    justify-content: space-around;
-    background-color: var(--accent1-color);
-    padding: 10px;
-}
-
-nav a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
 }
 
 /* other styles above */
-
-/* ✅ Add this at the very end of rafting.css */
 header {
     display: grid;
     grid-template-columns: 150px auto;
@@ -178,11 +96,6 @@ nav a {
     font-weight: bold;
 }
 
-.adventures {
-    padding: 20px;
-    text-align: center;
-}
-
 .adventures h2 {
     color: #004466;
     margin-bottom: 20px;
@@ -193,6 +106,8 @@ nav a {
     flex-wrap: wrap;
     justify-content: center;
     gap: 15px;
+    padding: 20px;
+    text-align: center;
 }
 
 .adventures figure {
@@ -214,3 +129,27 @@ nav a {
 
 nav a:hover {
     text-decoration: underline;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    gap: 1rem;
+    align-items: center;
+    background-color: #3e3e3e;
+    color: #fff;
+}
+
+.socialmedia {
+    display: flex;
+    gap: 8px;
+}
+
+.socialmedia img {
+    width: 60px;
+    height: 60px;
+}
+
+.socialmedia a {
+    text-decoration: none;
+}
