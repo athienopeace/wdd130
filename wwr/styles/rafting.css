@@ -12,6 +12,13 @@
 }
 
 body {
+    body {
+        background-color: #ffffff;
+        /* white */
+        color: #1a1a1a;
+        /* near black */
+    }
+
     font-family: var(--body-font);
     color: var(--accent1-color);
 }
@@ -227,4 +234,56 @@ button[type="submit"]:hover {
 
 .socialmedia a {
     text-decoration: none;
+}
+
+/* Link styles */
+a {
+    color: #0056b3;
+    /* deep blue for normal links */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #003366;
+    /* darker navy when hovered */
+    text-decoration: underline;
+}
+
+/* Button styles */
+button,
+.btn {
+    background-color: #28a745;
+    /* green */
+    color: #ffffff;
+    /* white text */
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+}
+
+button:hover,
+.btn:hover {
+    background-color: #1e7e34;
+    /* darker green */
+}
+
+/* Footer styles */
+footer {
+    background-color: #222222;
+    /* dark gray background */
+    color: #ffffff;
+    /* white text for contrast */
+    text-align: center;
+    padding: 1em 0;
+}
+
+footer a {
+    color: #ffffff;
+    /* white links in footer */
+    margin: 0 0.5em;
+}
+
+footer a:hover {
+    color: #ffcc00;
+    /* gold/yellow hover for visibility */
 }
