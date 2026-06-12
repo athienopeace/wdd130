@@ -287,3 +287,67 @@ footer a:hover {
     color: #ffcc00;
     /* gold/yellow hover for visibility */
 }
+
+/* Contact Us Page Styles */
+.company-info,
+.team,
+.contact-form {
+    margin: 2rem auto;
+    max-width: 900px;
+    text-align: center;
+}
+
+/* Map styling */
+.company-info iframe {
+    width: 100%;
+    height: 300px;
+    border: none;
+    margin-top: 1rem;
+}
+
+/* Team section */
+.team {
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.team figure {
+    text-align: center;
+}
+
+.team img {
+    width: 200px;
+    border-radius: 8px;
+}
+
+/* Contact form */
+.contact-form form {
+    display: grid;
+    gap: 1rem;
+    text-align: left;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+.contact-form textarea {
+    min-height: 120px;
+}
+
+.contact-form button {
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.contact-form button:hover {
+    background-color: #004999;
+}
