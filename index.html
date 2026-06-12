@@ -3,29 +3,67 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>My Home Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rafting Adventures | Home</title>
     <meta name="description"
-      content="Athieno Peace - WDD130 Home Page showcasing course projects and learning activities.">
-    <meta name="author" content="Athieno Peace">
-    <link rel="stylesheet" href="styles/styles.css">
+      content="Welcome to Rafting Adventures! Experience thrilling white water rafting trips, explore our offerings, and sign up for our newsletter.">
+    <link rel="stylesheet" href="rafting.css">
 </head>
 
 <body>
+    <header>
+        <img src="images/logo.png" alt="Rafting Site Logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
     <main>
-        <h1>Welcome to my WDD130 Home Page</h1>
-        <img src="images/profile.png" alt="Profile picture">
-        <p>This is my first GitHub Pages site for WDD130.</p>
+        <!-- Hero Section -->
+        <section class="hero">
+            <img src="images/hero.jpg" alt="Rafting Adventure">
+            <h1>Experience the Thrill of White Water Rafting</h1>
+        </section>
+
+        <!-- Newsletter Signup -->
+        <section class="newsletter">
+            <h2>Join Our Adventure Newsletter</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <button type="submit">Subscribe</button>
+            </form>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="cta">
+            <h2>Ready for Your Next Adventure?</h2>
+            <p>Discover our exciting trips and book your rafting experience today!</p>
+            <a href="trips.html" class="btn">View Trips</a>
+        </section>
+
+        <!-- Grid Layout Section -->
+        <section class="grid-layout">
+            <div>
+                <img src="images/rafting1.jpg" alt="Rafting Group">
+                <p>Our guided trips are perfect for families, friends, and thrill-seekers alike.</p>
+            </div>
+            <div>
+                <img src="images/rafting2.jpg" alt="River Rapids">
+                <p>Explore breathtaking rivers and enjoy the rush of the rapids.</p>
+            </div>
+        </section>
     </main>
 
-    <aside>
-        <h2>Uganda</h2>
-        <img src="images/uganda.jpg" alt="Uganda Flag">
-        <p>Uganda is known as the Pearl of Africa, rich in culture, wildlife, and natural beauty.
-        </p>
-    </aside>
-
     <footer>
-        <p>&copy; 2026 Athieno Peace | Uganda</p>
+        <p>© 2026 Rafting Adventures | Designed by Athieno Peace</p>
     </footer>
 </body>
 
